@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section>
+    <a id="add" class="add">Add User</a>
+    <table id="disp">
+      <tr>
+        <th onclick="sort()">Name</th><br>
+        <th>User Name</th>
+        <th>Password</th>
+        <th>Email</th>
+        <th>Phone no</th>
+        <th>DOB</th>
+        <th>confirm Passord</th>
+        <th>Is Major</th>
+      </tr>
+      <!-- <p id="demo"></p> -->
+      <!-- <tr>
+          <td><input type="text" class="td" name="name"></td>
+          <td><input type="text" class="td" name="name"></td>
+          <td><input type="text" class="td" name="name"></td>
+          <td><input type="text" class="td" name="name"></td>
+          <td><input type="text" class="td" name="name"></td>
+          <td><input type="text" class="td" name="name"></td>
+          <td><input type="text" class="td" name="name"></td>
+        </tr>
+        <tr>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+          </tr>
+          <tr>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+          </tr>
+          <tr>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+          </tr>
+          <tr>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+            <td><input type="text" class="td" name="name"></td>
+          </tr>
+         -->
+    </table>
+  </section>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <div id="close" class="close">+</div>
+        <form id="form"><div class="row1">
+          <div class="cntrl">
+            <input type="text" placeholder="Name" name="name" id="name">
+            <br><small class="small"></small>         
+           </div>
+
+            <div class="cntrl">
+            <input type="text" placeholder="E-Mail" name="email" id="email">
+            <br><small class="small"></small>
+          </div>
+
+            <div class="cntrl">
+            <input type="password" placeholder="Password" name="pwd" id="pwd">
+            <br><small class="small"></small>
+          </div>
+
+          <div class="cntrl">
+            <input type="date" placeholder="DOB" name="dob" id="dob">
+            <br><small class="small"></small></div>
+        </div>
+        <div class="row2">
+          <div class="cntrl">
+            <input type="text" placeholder="User Name" name="uname" id="uname">
+            <br><small class="small"></small>
+          </div>
+          <div class="cntrl">
+            <input type="text" placeholder="Phone No" name="phno" id="phno" maxlength=10>
+            <br><small class="small"></small>
+          </div>
+          <div class="cntrl">
+            <input type="password" placeholder="Confirm Password" name="cpwd" id="cpwd">
+            <br><small class="small"></small>
+          </div>
+            <div class="cntrl">
+            <input type="text" placeholder="Is Major" name="maj" id="maj">
+            <br> <small class="small"></small>
+          </div>
+
+        </div>
+    </form>
+    <button class="submit" id="submit" name="submit">Submit</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
